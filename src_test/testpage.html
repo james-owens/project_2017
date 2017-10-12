@@ -1,0 +1,33 @@
+<html>
+		<head>
+			<script type="text/javascript">
+				function changeCSS(url){
+					var stylesheet = document.getElementById("stylesheet");
+					stylesheet.setAttribute('href', url);			
+			}	
+			</script>
+
+			<h1>How does I into web programming?</h1>
+			<link id="stylesheet" rel="stylesheet" type="text/css" href="test1.css">
+		</head>
+	<body>
+
+		<a onclick="changeCSS('test1.css');" href="#"> STYLE 1</a>
+		<a onclick="changeCSS('test2.css');" href="#"> STYLE 2</a>
+
+		<div>
+		<form action="testpage1.html">
+			<input type="submit" name="submit" value="Stylesheet 1"> </br>
+		</form>
+
+		<form action="testpage2.html">
+			<input type="submit" name="submit" value="Stylesheet 2"> </br>
+		</form>
+
+		<form action="testpage3.html">	
+			<input type="submit" name="submit" value="Stylesheet 3"> </br>
+		</form>
+		</div>
+
+	</body>
+</html>
